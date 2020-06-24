@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Przychodnia</title>
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}"/>
+    <link href="../../static/css/main.css" th:href="@{/css/main.css}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="/">Przychodnia MySQL</a>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonPatients" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pacjenci
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonPatients">
+            <a class="dropdown-item" href="/addPatient">Dodaj pacjenta</a>
+            <a class="dropdown-item" href="/showPatients">Przeglądaj pacjentów</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonMedicines" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Leki
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonMedicines">
+            <a class="dropdown-item" href="/addMedicine">Dodaj lek</a>
+            <a class="dropdown-item" href="/showMedicines">Przeglądaj leki</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDoctors" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Lekarze
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonDoctors">
+            <a class="dropdown-item" href="/addDoctor">Dodaj lekarza</a>
+            <a class="dropdown-item" href="/showDoctors">Przeglądaj lekarzy</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonMedicalVisits" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Wizyty
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonMedicalVisits">
+            <a class="dropdown-item" href="/addMedicalVisit">Dodaj wizytę</a>
+            <a class="dropdown-item" href="/showMedicalVisits">Przeglądaj wizyty</a>
+        </div>
+    </div>
+
+    <a class="dropdown" href="/statistics">
+        <button type="submit" class="btn btn-secondary">
+            Statystyki
+        </button>
+    </a>
+
+</nav>
+
+<main role="main" class="container">
+
+
+
+
+    <table class="table white-bg">
+        <thead>
+        <tr>
+            <th> Nazwa i choroba </th>
+            <th> Cena </th>
+            <th> Firma </th>
+            <th> Więcej </th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        <tr th:each="medicines : ${medicine}" >
+            <td><span th:text="${medicines.name + '- ' + medicines.disease}"> Imię </span></td>
+            <td><span th:text="${#numbers.formatCurrency(medicines.price)}"> Cena </span></td>
+            <td><span th:text="${medicines.idPharmaceuticalCompany.nip}"> Cena </span></td>
+            <td><a th:href="@{/showMedicine/{id}(id=${medicines.id})}">Więcej</a></td>
+
+
+
+        </tr>
+        </tbody>
+    </table>
+    <!--    <form action="/addPatient" >-->
+    <!--    </form>-->
+
+</main>
+<!-- /.container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/webjars/popper.js/1.14.3/popper.min.js}"></script>
+
+</body>
+</html>

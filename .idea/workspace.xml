@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b32673ba-2b18-47a5-8cd0-c0f956a6a5bc" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/clinic-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/clinic-mysql/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="clinic@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="clinic@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="clinic@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clinic: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/MedicineCustomRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/DoctorCustomRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Cure</find>
+      <find>cure</find>
+      <find>pharm</find>
+      <find>Thread</find>
+      <find>redirect</find>
+      <find>white-bg</find>
+      <find>welcome</find>
+      <find>welc</find>
+      <find>wel</find>
+      <find>welcom</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>medicine</replace>
+      <replace>Medicine</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mongodb\src\main\java</dir>
+      <dir>D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/statistics/medicine-bydoctor-statistics.html" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/statistics/doctor-visit-statistics.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/statistics/show-statistics.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/statistics/medicine-statistics.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/statistics/medicine-bydoctor-statistics.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/statistics/doctor-visit-statistics.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/patient/add-patient.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/patient/edit-patient.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/patient/show-patient.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/patient/show-patients.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicine/add-medicine.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicine/show-medicine.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicine/edit-medicine.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicine/show-medicines.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/add-medicalVisit.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/edit-medicalVisit.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/show-doctors.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/show-doctor.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/edit-doctor.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/add-doctor.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/Test.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/Test.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/helper/ClinicHelper.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/OutpatientClinicCustomRepository.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/statistics/clinic-cities.html" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/OutpatientClinicCustomRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/OutpatientClinicRepository.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/patient/add-patient.html" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/patient/edit-patient.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/show-medicalVisits.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/show-medicalVisit.html" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/repository/MedicalVisitRepository.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/MedicineController.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/MedicineController.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/DoctorController.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/MedicalVisitController.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/PatientController.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/StatisticsController.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/PatientController.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/DoctorController.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/StatisticsBySQLController.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/model/MedicalVisit.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/repository/PrescriptionItemRepository.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/service/QueryMedicineMapper.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/MedicalVisitController.java" />
+        <option value="$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/service/GenerationService.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/DoctorCustomRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/MedicineCustomRepositoryImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="clinic-mongodb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="clinic-mongodb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDBvsMySQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clinic-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="com.mysql.cj.jdbc.Driver&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clinic-mysql/src/main/resources/templates" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql\src\main\resources\templates" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql\src\main\resources\templates\statistics" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql\src\main\java\com\app" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql\src\main\resources\templates\medicalVisit" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.service" />
+      <recent name="com.app.helper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql\src\main\resources\templates\statistics-jpql" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mysql\src\main\resources\templates" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mongodb\src\main\resources\templates\patient" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mongodb\src\main\resources\templates\medicine" />
+      <recent name="D:\Wojtek\Studia\Programowanie\Java\Web\MongoDBvsMySQL\clinic-mongodb\src\main\resources\templates\doctor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.13474026" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.MongoDB">
+    <configuration name="TestQueries" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="clinic-mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app" />
+      <option name="MAIN_CLASS_NAME" value="com.app.TestQueries" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDB" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="clinic-mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQL" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="clinic-mysql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestQueries" />
+      <item itemvalue="Spring Boot.MongoDB" />
+      <item itemvalue="Spring Boot.MySQL" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MySQL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b32673ba-2b18-47a5-8cd0-c0f956a6a5bc" name="Default Changelist" comment="" />
+      <created>1558105216779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558105216779</updated>
+      <workItem from="1558105218566" duration="269000" />
+      <workItem from="1558105533343" duration="231000" />
+      <workItem from="1558125674002" duration="740000" />
+      <workItem from="1558289760076" duration="14776000" />
+      <workItem from="1558371388512" duration="227000" />
+      <workItem from="1558385648970" duration="4857000" />
+      <workItem from="1559137853439" duration="56000" />
+      <workItem from="1559138037073" duration="16000" />
+      <workItem from="1559250907980" duration="434000" />
+      <workItem from="1559256447909" duration="1934000" />
+      <workItem from="1559298002968" duration="9348000" />
+      <workItem from="1559309773767" duration="10540000" />
+      <workItem from="1559336044022" duration="7736000" />
+      <workItem from="1559395603460" duration="10111000" />
+      <workItem from="1559426885367" duration="3988000" />
+      <workItem from="1559484416660" duration="21093000" />
+      <workItem from="1559594693702" duration="1459000" />
+      <workItem from="1559940202363" duration="3819000" />
+      <workItem from="1560186978988" duration="323000" />
+      <workItem from="1560191074507" duration="15207000" />
+      <workItem from="1560206572091" duration="2228000" />
+      <workItem from="1560241579644" duration="6351000" />
+      <workItem from="1560277087203" duration="3000" />
+      <workItem from="1560292384100" duration="3325000" />
+      <workItem from="1560296005373" duration="554000" />
+      <workItem from="1560368704852" duration="32000" />
+      <workItem from="1560533453726" duration="1931000" />
+      <workItem from="1560541252025" duration="8361000" />
+      <workItem from="1561911184767" duration="8390000" />
+      <workItem from="1562000422900" duration="3675000" />
+      <workItem from="1562004985169" duration="4582000" />
+      <workItem from="1562070551026" duration="8392000" />
+      <workItem from="1562342718407" duration="15655000" />
+      <workItem from="1562361593746" duration="9673000" />
+      <workItem from="1562417420615" duration="27690000" />
+      <workItem from="1562502052239" duration="1709000" />
+      <workItem from="1562519007430" duration="3485000" />
+      <workItem from="1562536739471" duration="9464000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestQueries - 2019.06.14 at 19h 47m 03s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.14 at 19h 48m 05s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.14 at 19h 56m 26s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.14 at 19h 57m 38s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.14 at 22h 12m 39s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.15 at 01h 00m 37s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.15 at 01h 01m 15s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.06.15 at 01h 03m 47s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestQueries - 2019.07.02 at 16h 29m 30s.xml">
+      <configuration name="TestQueries" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="222664000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.2881907" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49946696" visible="true" weight="0.2881907" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/DoctorController.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>200</line>
+          <properties class="com.app.service.GenerationService" method="generateAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java</url>
+          <line>166</line>
+          <properties class="com.app.service.GenerationService" method="generateMedicalVisits">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/show-doctor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="92" selection-start-line="95" selection-start-column="92" selection-end-line="95" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/edit-doctor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="92" selection-start-line="139" selection-start-column="92" selection-end-line="139" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/doctor/add-doctor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="92" selection-start-line="150" selection-start-column="92" selection-end-line="150" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/DoctorCustomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/OutpatientClinicCustomRepository.java" />
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/statistics/medicine-statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="69" column="6" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/statistics/clinic-cities.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/model/OutpatientClinic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/helper/ClinicHelper.java" />
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/OutpatientClinicCustomRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/patient/edit-patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="156" selection-start-line="99" selection-start-column="156" selection-end-line="99" selection-end-column="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/patient/add-patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="99" column="156" selection-start-line="99" selection-start-column="156" selection-end-line="99" selection-end-column="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/resources/templates/doctor/add-doctor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/OutpatientClinicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/edit-medicalVisit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="117" column="92" selection-start-line="117" selection-start-column="92" selection-end-line="117" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/show-medicalVisit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="72" column="64" lean-forward="true" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/templates/medicalVisit/show-medicalVisits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="86" column="48" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/MedicineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/model/Medicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/MedicalVisitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/MedicineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/DoctorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="52" selection-start-line="52" selection-end-line="55" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/DoctorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/StatisticsByJPQLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/StatisticsBySQLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/controller/StatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/model/MedicalVisit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/MedicalVisitRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/repository/MedicalVisitRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/repository/PrescriptionItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="50" selection-start-line="13" selection-end-line="18" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/service/MedicineQueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" selection-start-line="31" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/service/QueryMedicineMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/model/MedicalVisit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="46" column="48" selection-start-line="20" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="5" selection-start-line="10" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/controller/MedicalVisitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/MedicineCustomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.9.RELEASE/spring-orm-5.0.9.RELEASE.jar!/org/springframework/orm/jpa/vendor/HibernateJpaDialect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mysql/src/main/java/com/app/service/GenerationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="183" column="78" selection-start-line="183" selection-start-column="71" selection-end-line="183" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/service/GenerationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/DoctorCustomRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-mongodb/src/main/java/com/app/repository/custom/implementation/MedicineCustomRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>clinic-mysql</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

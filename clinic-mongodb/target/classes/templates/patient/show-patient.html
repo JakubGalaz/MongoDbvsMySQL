@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Pacjent</title>
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}"/>
+    <link href="../../static/css/main.css" th:href="@{/css/main.css}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="/">Przychodnia MongoDB</a>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonPatients" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pacjenci
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonPatients">
+            <a class="dropdown-item" href="/addPatient">Dodaj pacjenta</a>
+            <a class="dropdown-item" href="/showPatients">Przeglądaj pacjentów</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCures" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Leki
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonCures">
+            <a class="dropdown-item" href="/addMedicine">Dodaj lek</a>
+            <a class="dropdown-item" href="/showMedicines">Przeglądaj leki</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDoctors" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Lekarze
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonDoctors">
+            <a class="dropdown-item" href="/addDoctor">Dodaj lekarza</a>
+            <a class="dropdown-item" href="/showDoctors">Przeglądaj lekarzy</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonMedicalVisits" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Wizyty
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonMedicalVisits">
+            <a class="dropdown-item" href="/addMedicalVisit">Dodaj wizytę</a>
+            <a class="dropdown-item" href="/showMedicalVisits">Przeglądaj wizyty</a>
+
+        </div>
+    </div>
+
+    <a class="dropdown" href="/statistics">
+        <button type="submit" class="btn btn-secondary">
+            Statystyki
+        </button>
+    </a>
+
+
+</nav>
+
+<main role="main" class="container">
+
+    <div class="starter-template">
+        <h2 class="white-bg">
+            <p th:text="${ patient.firstName + ' ' + patient.lastName}"></p>
+            <p th:text="${'PESEL: ' + patient.peselNumber}"></p>
+            <p th:text="${'E- mail: ' + patient.email}"></p>
+            <p th:text="${'Adres: ' + patient.address.city + ', ' + patient.address.street + ' ' + patient.address.houseNumber + '/' + patient.address.apartmentNumber
+            + ', ' + patient.address.postalCode + ' ' + patient.address.postalCity}"></p>
+        </h2>
+
+        <form th:action="@{/editPatient/{id}(id=${patient.id})}" th:method="GET">
+            <button type="submit" class="btn btn-warning">Edytuj pacjenta</button>
+        </form>
+
+        <form th:action="@{/deletePatient/{id}(id=${patient.id})}" th:method="delete">
+            <button type="submit" class="btn btn-warning">Usuń pacjenta</button>
+        </form>
+
+    </div>
+
+    <a href="/addPatient"> <button type="submit" class="btn btn-primary">Dodaj pacjenta</button></a>
+    <a href="/showPatients"> <button type="submit" class="btn btn-primary">Przeglądaj pacjentów</button></a>
+</main>
+<!-- /.container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/webjars/popper.js/1.14.3/popper.min.js}"></script>
+
+</body>
+</html>
